@@ -10,28 +10,28 @@ arcade.set_background_color(arcade.color.BLACK)
 arcade.start_render()  # Always use this before starting
 
 # Base Structure
-x = 350
-y = 350
-radius = 200
+x = 330
+y = 330
+radius = 180
 arcade.draw_circle_filled(x, y, radius, arcade.color.YELLOW)
 
 # Right Eye
-x = 420
-y = 420
+x = 400
+y = 400
 radius = 25
 arcade.draw_circle_filled(x, y, radius, arcade.color.BLACK)
 
 # Left Eye
-x = 280
-y = 420
+x = 260
+y = 400
 radius = 25
 arcade.draw_circle_filled(x, y, radius, arcade.color.BLACK)
 
 # Curve
-x = 340
-y = 310
+x = 320
+y = 290
 width = 120
-height = 100
+height = 120
 start_angle = 180
 end_angle = 360
 arcade.draw_arc_outline(
